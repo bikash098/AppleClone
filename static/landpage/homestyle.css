@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+}
+
+.product-heading {
+    font-family:'Bebas Neue', cursive;
+    font-size: 100px;
+    color:wheat;
+    padding: 50px;
+}
+
+.product {
+    color:white
+}
+
+.list {
+    font-family: 'Arial', cursive;
+    color:white;
+    list-style: none;
+}
+
+.lined-products ul {
+    padding:50px;
+    display: inline-block;
+}
+
+.lined-products {
+    white-space: nowrap;
+    padding-left: 40px;
+}
+
+.title {
+    color : wheat;
+    font-style: bold;
+    padding-left: 150px;
+}
+
+.description {
+    padding-top: 20px;
+}
+
+.item-box {
+    padding: 20px;
+    
+}
+
+.buy-btn {
+    text-align: center;
+    font-size: 30px;
+    width:200px;
+    height: 50px;
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 50px;
+    background-color: wheat;
+}
+
+.buy-btn:hover {
+    background-color:white;
+}
+
+.image-data{
+    width:500px;
+    height: 450px;
+}
